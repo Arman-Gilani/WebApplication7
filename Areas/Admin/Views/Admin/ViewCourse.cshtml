@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+	<body>
+
+		<div>
+			<a href="https://localhost:7111/Admin/Admin/ManageCourse" class="btn btn-primary">
+				Back
+			</a>
+		</div>
+
+		<br />
+
+		<div class="card">
+			<div class="card-body">
+
+				<h5 class="card-title d-flex justify-content-between align-items-center">
+					Course Details
+				</h5>
+
+				<br />
+				<!-- ~/NiceAdmin/img/MY PROFILE IMAGE.jpg    ViewBag.CourseLogo -->
+				<div class="card-body text-center">
+					<img src="@ViewBag.CourseLogo" alt="CourseLogo" class="rounded-circle" style="width: 200px; height: 200px;">
+				</div>
+
+				<div class="card" style="background-color: #f6f9ff; padding: 10px;">
+					<div class="container">
+						<p style="display: inline; margin-left: 10px;">CourseCategoryID: @ViewBag.CourseCategoryID</p>
+					</div>
+				</div>
+
+				<div class="card" style="background-color: #f6f9ff; padding: 10px;">
+					<div class="container">
+						<p style="display: inline; margin-left: 10px;">CourseCategory: @ViewBag.CourseCategory</p>
+					</div>
+				</div>
+
+				<div class="card" style="background-color: #f6f9ff; padding: 10px;">
+					<div class="container">
+						<p style="display: inline; margin-left: 10px;">CourseID: @ViewBag.CourseID</p>
+					</div>
+				</div>
+
+				<div class="card" style="background-color: #f6f9ff; padding: 10px;">
+					<div class="container">
+						<i class="course fas fa-book" style="display: inline; margin-left: 10px;"></i>
+						<p style="display: inline; margin-left: 10px;">CourseName: @ViewBag.CourseName</p>
+					</div>
+				</div>
+
+				<div class="card" style="background-color: #f6f9ff; padding: 10px;">
+					<div class="container">
+						<p style="display: inline; margin-left: 10px;">CourseLogo: @ViewBag.CourseLogo</p>
+					</div>
+				</div>
+
+				<div class="card" style="background-color: #f6f9ff; padding: 10px;">
+					<div class="container">
+						<p style="display: inline; margin-left: 10px;">CourseDescription: @ViewBag.CourseDescription</p>
+					</div>
+				</div>
+
+				<div class="card" style="background-color: #f6f9ff; padding: 10px;">
+					<div class="container">
+					<p style="display: inline; margin-left: 10px;">Created: @Convert.ToDateTime(@ViewBag.Created).ToString("dd-MM-yyyy")</p>
+					</div>
+				</div>
+
+				<div class="card" style="background-color: #f6f9ff; padding: 10px;">
+					<div class="container">
+					<p style="display: inline; margin-left: 10px;">Modified: @Convert.ToDateTime(@ViewBag.Modified).ToString("dd-MM-yyyy")</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</body>
+</html>

@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Webpage Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .nav-container {
+            overflow: auto;
+            background-color: #007BFF; /* Change the background color here */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+            nav li {
+                margin: 0 10px;
+            }
+
+            nav a {
+                text-decoration: none;
+                color: #FFFFFF; /* Change the text color here */
+                padding: 8px 16px;
+                display: inline-block;
+            }
+
+                nav a:hover {
+                    background-color: #ddd;
+                    color: #333;
+                }
+    </style>
+</head>
+
+<body>
+
+    <div class="nav-container">
+        <nav id="courseNav">
+            <!-- JavaScript will dynamically generate the course items here -->
+        </nav>
+    </div>
+
+    <br />
+
+    <div class="text-center">
+
+        <div class="pagetitle">
+            <h1>Welcome to</h1>
+        </div>
+
+        <div class="pagetitle">
+            <h1>InsightAcademy</h1>
+        </div>
+
+    </div>
+
+    <script>
+        // Replace the courseNames array with your desired course names
+        const courseNames = ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP", "JQUERY", "VUE", "TYPESCRIPT", "REACT", "ANGULAR", "NODE", "NODEJS", "PHP", "C", "C++", "C#", "JAVA", "PYTHON", "R", "GO", "SWIFT", "KOTLIN", "DART", "DJANGO", "NUMPY", "PANDAS", "SQL", "MYSQL", "POSTGRESQL", "MONGODB", "ASP", "XML", "GIT", "AWS", "IOS", "ANDROID", "FLUTTER", "AI", "ML", "CS", "DS", "CN", "OS", "DBMS", "DSA",];
+
+        const courseNav = document.getElementById('courseNav');
+
+        // Dynamically generate the course items
+        courseNames.forEach(course => {
+            const listItem = document.createElement('li');
+            const link = document.createElement('a');
+            link.href = '#'; // Set your actual link here
+            link.textContent = course;
+            listItem.appendChild(link);
+            courseNav.appendChild(listItem);
+        });
+    </script>
+
+</body>
+</html>

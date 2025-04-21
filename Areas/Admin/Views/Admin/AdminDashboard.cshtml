@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f6f9ff;
+            }
+
+            .card-body {
+                background-color: white !important;
+            }
+
+            .card-body {
+                padding: 20px;
+            }
+            
+            h3, h5 {
+                margin-bottom: 15px;
+            }
+
+            .btn {
+                margin-bottom: 15px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="row g-4 mb-4">
+            
+            <h2>Welcome [Admin]!</h2>
+            
+            <br />
+
+            <div class="col-md-6 col-xxl-3">
+                <div class="card card-body bg-warning bg-opacity-15 p-4">
+                    <h3>Total Admins</h3>
+                    <h5>@ViewBag.AdminsCount</h5>
+                    @*
+                    <a asp-area="Admin" asp-controller="Admin" asp-action="ManageUsers" class="btn btn-primary">View All Admins</a>
+                    *@
+                </div>
+            </div>
+
+            <div class="col-md-6 col-xxl-3">
+                <div class="card card-body bg-warning bg-opacity-15 p-4">
+                    <h3>Total Users</h3>
+                    <h5>@ViewBag.UsersCount</h5>
+                    <a asp-area="Admin" asp-controller="Admin" asp-action="ManageUsers" class="btn btn-primary">View All Users</a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-xxl-3">
+                <div class="card card-body bg-warning bg-opacity-15 p-4">
+                    <h3>Total Course Categories</h3>
+                    <h5>@ViewBag.CourseCategoryCount</h5>
+                    <a asp-area="Admin" asp-controller="Admin" asp-action="ManageCourseCategory" class="btn btn-primary">View All Course Categories</a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-xxl-3">
+                <div class="card card-body bg-warning bg-opacity-15 p-4">
+                    <h3>Total Courses</h3>
+                    <h5>@ViewBag.CoursesCount</h5>
+                    <a asp-area="Admin" asp-controller="Admin" asp-action="ManageCourse" class="btn btn-primary">View All Courses</a>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,177 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebApplication7
+build_property.RootNamespace = WebApplication7
+build_property.ProjectDir = D:\ARMAN\ASP.NET PROGRAMS\WebApplication7\WebApplication7\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\ARMAN\ASP.NET PROGRAMS\WebApplication7\WebApplication7
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/Admin/Views/Admin/AddContent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQWRkQ29udGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/Admin/Views/Admin/AddNewCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQWRkTmV3Q291cnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/Admin/Views/Admin/AddNewCourseCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQWRkTmV3Q291cnNlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/Admin/Views/Admin/AddNewUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQWRkTmV3VXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/Admin/Views/Admin/AdminCourseCategoryEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQWRtaW5Db3Vyc2VDYXRlZ29yeUVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/Admin/Views/Admin/AdminDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQWRtaW5EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/Admin/Views/Admin/AdminEditCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQWRtaW5FZGl0Q291cnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/Admin/Views/Admin/AdminProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQWRtaW5Qcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/Admin/Views/Admin/DEMO.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cREVNTy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/Admin/Views/Admin/EditCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cRWRpdENvdXJzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/Admin/Views/Admin/ManageCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cTWFuYWdlQ291cnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/Admin/Views/Admin/ManageCourseCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cTWFuYWdlQ291cnNlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/Admin/Views/Admin/ManageCourseContent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cTWFuYWdlQ291cnNlQ29udGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/Admin/Views/Admin/ManageTutorial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cTWFuYWdlVHV0b3JpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/Admin/Views/Admin/ManageUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cTWFuYWdlVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/Admin/Views/Admin/ViewContent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cVmlld0NvbnRlbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/Admin/Views/Admin/ViewCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cVmlld0NvdXJzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/Admin/Views/Admin/ViewUserDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cVmlld1VzZXJEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/User/Views/User/UserCompiler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXFVzZXJDb21waWxlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/User/Views/User/UserCompiler1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXFVzZXJDb21waWxlcjEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/User/Views/User/UserContests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXFVzZXJDb250ZXN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/User/Views/User/UserCourses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXFVzZXJDb3Vyc2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/User/Views/User/UserDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXFVzZXJEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/User/Views/User/UserExercises.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXFVzZXJFeGVyY2lzZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/User/Views/User/UserProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXFVzZXJQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/User/Views/User/UserTutorials.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXFVzZXJUdXRvcmlhbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/User/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Areas/User/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ARMAN/ASP.NET PROGRAMS/WebApplication7/WebApplication7/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-kcj6918upk

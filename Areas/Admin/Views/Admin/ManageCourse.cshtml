@@ -1,0 +1,111 @@
+﻿@using WebApplication7.Areas.Admin.Models;
+@using System.Data;
+@using System.Globalization
+@model List<AdminModel>;
+
+@section Scripts
+	{
+	<script>
+		function checkDelete() {
+			if (confirm("Are you sure want to delete this course?")) {
+				return true;
+			}
+			else {
+				return false;
+			}
+		}
+	</script>
+}
+
+<!DOCTYPE html>
+<html>
+    <body>
+
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title">Search Course Details</h5>
+				<form class="row g-3" method="post" asp-area="Admin" asp-controller="Admin" asp-action="SearchCourse">
+
+					<div class="col-md-6">
+						<label for="inputName1" class="form-label">CourseID:</label>
+						<input type="text" id="courseID" name="courseID" class="form-control" required>
+					</div>
+
+					<div class="col-md-6">
+						<label for="inputName2" class="form-label">CourseName:</label>
+						<input type="text" id="courseName" name="courseName" class="form-control" required>
+					</div>
+
+					<div>
+						<input type="submit" value="Search Course" class="btn btn-primary" />
+						<a asp-area="Admin" asp-controller="Admin" asp-action="ManageCourse" class="btn btn-primary">Clear Filter</a>
+					</div>
+
+				</form>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title d-flex justify-content-between align-items-center">
+					Course Details
+					<a asp-area="Admin" asp-controller="Admin" asp-action="AddNewCourse" class="btn btn-success">Add New Course</a>
+				</h5>
+
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th scope="col">CourseCategoryID</th>
+							<th scope="col">CourseCategory</th>
+							<th scope="col">CourseID</th>
+							<th scope="col">CourseName</th>
+
+							@*
+							<th scope="col">Created</th>
+							<th scope="col">Modified</th>
+							*@
+						
+							<th scope="col">Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+
+						@if (Model.Count > 0)
+						{
+							foreach (var course in Model)
+							{
+								<tr>
+									<td>@course.CourseCategoryID</td>
+									<td>@course.CourseCategory</td>
+									<td>@course.CourseID</td>
+									<td>@course.CourseName</td>
+
+									@*
+									<td>@Convert.ToDateTime(@course.Created).ToString("dd-MM-yyyy")</td>
+									<td>@Convert.ToDateTime(@course.Modified).ToString("dd-MM-yyyy")</td>
+									*@
+
+									<td>
+										<a asp-area="Admin" asp-controller="Admin" asp-action="ViewCourse" asp-route-CourseID="@course.CourseID" class="btn btn-primary">View</a>
+										<a asp-area="Admin" asp-controller="Admin" asp-action="EditCourse" asp-route-CourseID="@course.CourseID" class="btn btn-primary">Edit</a>
+										<a asp-area="Admin" asp-controller="Admin" asp-action="DeleteCourse" asp-route-CourseID="@course.CourseID" class="btn btn-danger" onclick="return checkDelete();">Delete</a>
+									</td>
+								</tr>
+							}
+						}
+						else
+						{
+							<tr>
+								<td colspan="9	" class="text-center">
+									<p class="col-form-label">No Records Found!</p>
+								</td>
+							</tr>
+						}
+
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+    </body>
+</html>

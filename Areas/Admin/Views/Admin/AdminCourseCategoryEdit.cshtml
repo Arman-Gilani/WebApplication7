@@ -1,0 +1,40 @@
+﻿@using WebApplication7.Areas.Admin.Models;
+@using System.Data;
+@model DataTable;
+
+<!DOCTYPE html>
+<html>
+    <body>
+
+		<div>
+			<a href="https://localhost:7111/Admin/Admin/ManageCourseCategory" class="btn btn-primary">
+				Back
+			</a>
+		</div>
+
+		<br />
+
+		<div class="card">
+			<div class="card-body">
+
+				<h5 class="card-title">Update Course Category Details</h5>
+
+				<form class="row g-3" method="post" asp-area="Admin" asp-controller="Admin" asp-action="AdminCourseCategoryEdit1">
+
+					<div class="col-md-6">
+						<label for="inputName5" class="form-label">CourseCategory:</label>
+						<input type="text" value="@ViewBag.CourseCategory" id="courseCategory" name="courseCategory" class="form-control" required />
+					</div>
+
+					<div>
+						<input type="hidden" name="CourseCategoryID" value="@ViewBag.CourseCategoryID" />
+						<input type="submit" value="Update" class="btn btn-primary" />
+					</div>
+
+				</form>
+
+			</div>
+		</div>
+
+    </body>
+</html>

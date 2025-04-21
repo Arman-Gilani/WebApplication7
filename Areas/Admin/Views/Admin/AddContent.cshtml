@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+	<body>
+
+		<div>
+			<a href="https://localhost:7111/Admin/Admin/ManageCourseContent" class="btn btn-primary">
+				Back
+			</a>
+		</div>
+
+		<br />
+
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title">Insert Course Section Information</h5>
+				<form class="row g-3" method="post" asp-area="" asp-controller="" asp-action="">
+
+					<div class="col-md-6">
+						<label for="inputName1" class="form-label">CourseID:</label>
+						<input type="text" id="courseID" name="courseID" value="@ViewBag.CourseID" class="form-control" required>
+					</div>
+
+					<div class="col-md-6">
+						<label for="inputName2" class="form-label">SectionTitle:</label>
+						<input type="text" id="sectionTitle" name="sectionTitle" class="form-control" required>
+					</div>
+
+					<div>
+						<input type="submit" value="Save Course Section" class="btn btn-primary" />
+					</div>
+
+				</form>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title">Insert Course Section Lesson Information</h5>
+				<form class="row g-3" method="post" asp-area="" asp-controller="" asp-action="">
+
+					<div class="col-md-6">
+						<label for="inputName1" class="form-label">SectionID:</label>
+						<input type="text" id="sectionID" name="sectionID" class="form-control" required>
+					</div>
+
+					<div class="col-md-6">
+						<label for="inputName1" class="form-label">LessonTitle:</label>
+						<input type="text" id="lessonTitle" name="lessonTitle" class="form-control" required>
+					</div>
+
+					<div class="col-md-6">
+						<label for="inputName1" class="form-label">Content:</label>
+						<input type="text" id="content" name="content" class="form-control" required>
+					</div>
+
+					@*
+					<div class="col-md-6">
+						<label for="inputName1" class="form-label">Image:</label>
+						<input type="file" id="image" name="image" class="form-control" required>
+					</div>
+
+					<div class="col-md-6">
+						<label for="inputName1" class="form-label">Video:</label>
+						<input type="file" id="video" name="video" class="form-control" required>
+					</div>
+					*@
+
+					<div class="col-md-6">
+						<label for="inputName1" class="form-label">Image:</label>
+						<input type="text" id="image" name="image" class="form-control" required>
+					</div>
+
+					<div class="col-md-6">
+						<label for="inputName1" class="form-label">Video:</label>
+						<input type="text" id="video" name="video" class="form-control" required>
+					</div>
+
+					<div>
+						<input type="submit" value="Save Course Section Lesson" class="btn btn-primary" />
+					</div>
+
+				</form>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title">Insert Course Section Lesson Example Information</h5>
+				<form class="row g-3" method="post" asp-area="" asp-controller="" asp-action="">
+
+					<div class="col-md-6">
+						<label for="inputName1" class="form-label">LessonID:</label>
+						<input type="text" id="lessonID" name="lessonID" class="form-control" required>
+					</div>
+
+					<div class="col-md-6">
+						<label for="inputName1" class="form-label">ExampleTitle:</label>
+						<input type="text" id="exampleTitle" name="exampleTitle" class="form-control" required>
+					</div>
+
+					<div class="col-md-6">
+						<label for="inputName1" class="form-label">Example:</label>
+						<input type="text" id="example" name="example" class="form-control" required>
+					</div>
+
+					<div>
+						<input type="submit" value="Save Course Section Lesson Example" class="btn btn-primary" />
+					</div>
+
+				</form>
+			</div>
+		</div>
+
+	</body>
+</html>

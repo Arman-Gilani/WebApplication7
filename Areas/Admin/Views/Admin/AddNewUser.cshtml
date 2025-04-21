@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+	<body>
+
+		<div>
+			<a href="https://localhost:7111/Admin/Admin/ManageUsers" class="btn btn-primary">
+				Back
+			</a>
+		</div>
+
+		<br />
+
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title">Insert User Details</h5>
+				<form class="row g-3" method="post" asp-area="Admin" asp-controller="Admin" asp-action="AddNewUser1">
+
+					<div class="col-md-6">
+						<label for="inputName1" class="form-label">UserName:</label>
+						<input type="text" id="userName" name="userName" class="form-control" required />
+					</div>
+
+					<div class="col-md-6">
+						<label for="inputName2" class="form-label">UserEmail:</label>
+						<input type="text" id="userEmail" name="userEmail" class="form-control" required />
+					</div>
+
+					<div class="col-md-6">
+						<label for="inputName3" class="form-label">UserPassword:</label>
+						<input type="password" id="userPassword" name="userPassword" class="form-control" required />
+					</div>
+
+					<div class="col-md-6">
+						<label for="inputName4" class="form-label">UserContactNo:</label>
+						<input type="text" id="userContactNo" name="userContactNo" class="form-control" required />
+					</div>
+
+					<div class="col-md-6">
+						<label for="inputName5" class="form-label">UserProfileImageURL:</label>
+						<input type="text" id="userProfileImageURL" name="userProfileImageURL" class="form-control" required />
+					</div>
+
+					<div class="col-md-6">
+						<label for="isActive" class="form-label">IsActive:</label>
+					<select id="isActive" name="isActive" class="form-control">
+							<option value="1">Active</option>
+							<option value="0">Inactive</option>
+						</select>
+					</div>
+
+					<div class="col-md-6">
+						<label for="isAdmin" class="form-label">IsAdmin:</label>
+						<select id="isAdmin" name="isAdmin" class="form-control">
+							<option value="0">No</option>
+							<option value="1">Yes</option>
+						</select>
+					</div>
+
+					<div>
+						<input type="submit" value="Submit" class="btn btn-primary" />
+					</div>	
+
+				</form>
+			</div>
+		</div>
+
+	</body>
+</html>
+
+<!--
+	<a href="https://localhost:7017/LOC_Country/LOC_Country/LOC_CountryList">Back</a>
+
+
+	<div class="row">
+		<div>
+			<div class="text text-center">Hover over the arrow</div>
+			<button class="btn btn-lg text-center"><span><i class="fa fa-arrow-left fa-3x"></i></span>jbjhw</button>
+		</div>
+	</div>
+
+-->

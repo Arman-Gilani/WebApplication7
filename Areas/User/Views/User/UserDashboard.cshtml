@@ -1,0 +1,151 @@
+﻿<!--
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dynamic Cards</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f6f9ff;
+            }
+
+            .background-card {
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                margin: 20px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .inner-card {
+                flex: 2;
+                background-color: #3498db; /* Blue color */
+                color: #fff;
+                border-radius: 8px;
+                padding: 15px;
+                margin-bottom: 10px;
+            }
+
+                .inner-card.green {
+                    background-color: #2ecc71; /* Green color */
+                }
+
+            button{
+                color: #3498db; /* This is for the font color of the button */
+                background-color: #f6f9ff; /* This is for the color of the button */
+                border-radius: 8px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="background-card">
+            <h2>Welcome [Username]!</h2>
+            <br />
+            <div class="inner-card">
+                <h3>Total Courses</h3>
+                <h5>1000</h5>
+                <button type="button" class="button">View Courses</button>
+            </div>
+            <div class="inner-card">
+                <h3>Enrolled Courses</h3>
+                <h5>100</h5>
+                <button type="button" class="button">Enroll Course</button>
+            </div>
+            <div class="inner-card">
+                <h3>Completed Courses</h3>
+                <h5>50</h5>
+            </div>
+        </div>
+    </body>
+</html>
+-->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f6f9ff;
+            }
+
+            .card-body {
+                background-color: white !important;
+            }
+
+            .card-body {
+                padding: 20px;
+            }
+
+            h3, h5 {
+                margin-bottom: 15px;
+            }
+
+            .btn {
+                margin-bottom: 15px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="row g-4 mb-4">
+
+            <h2>Welcome [Admin]!</h2>
+
+            <br />
+
+            <div class="col-md-6 col-xxl-3">
+                <div class="card card-body bg-warning bg-opacity-15 p-4">
+                    <h3>Total Course Categories</h3>
+                    <h5>@ViewBag.CourseCategoryCount</h5>
+                    <a asp-area="" asp-controller="" asp-action="" class="btn btn-primary">View All Course Categories</a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-xxl-3">
+                <div class="card card-body bg-warning bg-opacity-15 p-4">
+                    <h3>Total Courses</h3>
+                    <h5>@ViewBag.CoursesCount</h5>
+                    <a asp-area="" asp-controller="" asp-action="" class="btn btn-primary">View All Courses</a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-xxl-3">
+                <div class="card card-body bg-warning bg-opacity-15 p-4">
+                    <h3>Enrolled Courses</h3>
+                    <h5>0</h5>
+                    @*
+                    <a asp-area="" asp-controller="" asp-action="" class="btn btn-primary">View All Admins</a>
+                    *@
+                </div>
+            </div>
+
+            <div class="col-md-6 col-xxl-3">
+                <div class="card card-body bg-warning bg-opacity-15 p-4">
+                    <h3>Completed Courses</h3>
+                    <h5>0</h5>
+                    @*
+                    <a asp-area="" asp-controller="" asp-action="" class="btn btn-primary">View All Admins</a>
+                    *@
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

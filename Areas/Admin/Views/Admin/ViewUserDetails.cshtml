@@ -1,0 +1,119 @@
+﻿@using WebApplication7.Areas.Admin.Models;
+@using System.Data;
+@model DataTable;
+
+<!DOCTYPE html>
+<html>
+	<body>
+
+		<div>
+			<a href="https://localhost:7111/Admin/Admin/ManageUsers" class="btn btn-primary">
+				Back
+			</a>
+		</div>
+
+		<br />
+
+		<div class="card">
+			<div class="card-body">
+
+				<h5 class="card-title d-flex justify-content-between align-items-center">
+					User Details
+				</h5>
+
+				<br />
+				<!-- ~/NiceAdmin/img/MY PROFILE IMAGE.jpg    ViewBag.UserProfileImageURL -->
+				<div class="card-body text-center">
+					<img src="~/NiceAdmin/img/MY PROFILE IMAGE.jpg" alt="Profile" class="rounded-circle" style="width: 200px; height: 200px;"> 
+				</div>
+
+				<div class="card" style="background-color: #f6f9ff; padding: 10px;">
+					<div class="container">
+						<i class="bi bi-info-lg" style="display: inline; margin-left: 10px;"></i>
+						<p style="display: inline; margin-left: 10px;">@ViewBag.UserID</p>
+					</div>
+				</div>
+
+				<div class="card" style="background-color: #f6f9ff; padding: 10px;">
+					<div class="container">
+						<i class="bi bi-person-fill" style="display: inline; margin-left: 10px;"></i>
+						<p style="display: inline; margin-left: 10px;">@ViewBag.UserName</p>
+					</div>
+				</div>
+
+				<div class="card" style="background-color: #f6f9ff; padding: 10px;">
+					<div class="container">
+						<i class="bi bi-envelope-at-fill" style="display: inline; margin-left: 10px;"></i>
+						<p style="display: inline; margin-left: 10px;">@ViewBag.UserEmail</p>
+					</div>
+				</div>
+
+				<div class="card" style="background-color: #f6f9ff; padding: 10px;">
+					<div class="container">
+						<i class="bi bi-telephone-fill" style="display: inline; margin-left: 10px;"></i>
+						<p style="display: inline; margin-left: 10px;">@ViewBag.UserContact</p>
+					</div>
+				</div>
+
+				<div class="card" style="background-color: #f6f9ff; padding: 10px;">
+					<div class="container">
+						<i class="bi bi-toggles" style="display: inline; margin-left: 10px;"></i>
+						<p style="display: inline; margin-left: 10px;">IsActive : @ViewBag.IsActive</p>
+					</div>
+				</div>
+
+				<div class="card" style="background-color: #f6f9ff; padding: 10px;">
+					<div class="container">
+						<i class="bi bi-toggles" style="display: inline; margin-left: 10px;"></i>
+						<p style="display: inline; margin-left: 10px;">IsAdmin : @ViewBag.IsAdmin</p>
+					</div>
+				</div>
+
+				<div class="card" style="background-color: #f6f9ff; padding: 10px;">
+					<div class="container">
+						<i class="bi bi-clock-history" style="display: inline; margin-left: 10px;"></i>
+					<p style="display: inline; margin-left: 10px;">@ViewBag.Created</p>
+					</div>
+				</div>
+
+				<div class="card" style="background-color: #f6f9ff; padding: 10px;">
+					<div class="container">
+						<i class="bi bi-pen-fill" style="display: inline; margin-left: 10px;"></i>
+						<p style="display: inline; margin-left: 10px;">@ViewBag.Modified</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<br />
+
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title d-flex justify-content-between align-items-center">
+					Course Details
+				</h5>
+
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th scope="col">Total Courses</th>
+							<th scope="col">Enrolled Courses</th>
+							<th scope="col">Completed Courses</th>
+						</tr>
+					</thead>
+					<tbody>
+
+						<tr>
+							<td>@ViewBag.CoursesCount</td>
+							<td>0</td>
+							<td>0</td>
+						</tr>
+
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+	</body>
+</html>

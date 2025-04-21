@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+	<div>
+		<a href="https://localhost:7111/Admin/Admin/ManageCourse" class="btn btn-primary">
+			Back
+		</a>
+	</div>
+
+	<br />
+
+	<div class="card">
+		<div class="card-body">
+			<h5 class="card-title">Update Course Details</h5>
+			<form class="row g-3" method="post" asp-area="Admin" asp-controller="Admin" asp-action="EditCourse1">
+				
+				<div class="col-md-6">
+					<label for="inputName5" class="form-label">CourseCategoryID:</label>
+					<input type="text" id="courseCategoryID" name="courseCategoryID" value="@ViewBag.CourseCategoryID" class="form-control" required />
+				</div>
+
+				<div class="col-md-6">
+					<label for="inputName5" class="form-label">CourseName:</label>
+					<input type="text" id="courseName" name="courseName" value="@ViewBag.CourseName" class="form-control" required />
+				</div>
+
+				<div class="col-md-6">
+					<label for="inputName5" class="form-label">CourseLogo:</label>
+					<input type="text" id="courseLogo" name="courseLogo" value="@ViewBag.CourseLogo" class="form-control" required />
+				</div>
+
+				<div class="col-md-6">
+					<label for="inputName5" class="form-label">CourseTitle:</label>
+					<input type="text" id="courseTitle" name="courseTitle" value="@ViewBag.CourseTitle" class="form-control" required />
+				</div>
+
+				<div class="col-md-6">
+					<label for="inputName5" class="form-label">CourseDescription:</label>
+					<input type="text" id="courseDescription" name="courseDescription" value="@ViewBag.CourseDescription" class="form-control" required />
+				</div>
+
+				<div>
+					<input type="hidden" name="CourseID" value="@ViewBag.CourseID" />
+					<input type="submit" value="Update" class="btn btn-primary" />
+				</div>
+
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>

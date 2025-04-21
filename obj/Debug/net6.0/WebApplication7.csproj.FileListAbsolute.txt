@@ -1,0 +1,8 @@
+D:\ARMAN\ASP.NET PROGRAMS\WebApplication7\WebApplication7\obj\Debug\net6.0\WebApplication7.csproj.AssemblyReference.cache
+D:\ARMAN\ASP.NET PROGRAMS\WebApplication7\WebApplication7\obj\Debug\net6.0\WebApplication7.GeneratedMSBuildEditorConfig.editorconfig
+D:\ARMAN\ASP.NET PROGRAMS\WebApplication7\WebApplication7\obj\Debug\net6.0\WebApplication7.AssemblyInfoInputs.cache
+D:\ARMAN\ASP.NET PROGRAMS\WebApplication7\WebApplication7\obj\Debug\net6.0\WebApplication7.AssemblyInfo.cs
+D:\ARMAN\ASP.NET PROGRAMS\WebApplication7\WebApplication7\obj\Debug\net6.0\WebApplication7.csproj.CoreCompileInputs.cache
+D:\ARMAN\ASP.NET PROGRAMS\WebApplication7\WebApplication7\obj\Debug\net6.0\WebApplication7.MvcApplicationPartsAssemblyInfo.cache
+D:\ARMAN\ASP.NET PROGRAMS\WebApplication7\WebApplication7\obj\Debug\net6.0\WebApplication7.RazorAssemblyInfo.cache
+D:\ARMAN\ASP.NET PROGRAMS\WebApplication7\WebApplication7\obj\Debug\net6.0\WebApplication7.RazorAssemblyInfo.cs

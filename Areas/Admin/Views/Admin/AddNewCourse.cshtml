@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+	<body>
+
+		<div>
+			<a href="https://localhost:7111/Admin/Admin/ManageCourse" class="btn btn-primary">
+				Back
+			</a>
+		</div>
+
+		<br />
+
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title">Insert Course Details</h5>
+				<form class="row g-3" method="post" asp-area="Admin" asp-controller="Admin" asp-action="AddNewCourse1">
+					
+					<div>
+						<select id="courseCategoryID" name="courseCategoryID" class="form-select form-select-m w-25"
+								asp-items="@(new SelectList(ViewBag.CourseCategoryList,"CourseCategoryID","CourseCategory"))">
+							<option disabled selected>Select CourseCategory</option>
+						</select>
+					</div>
+					
+					<div class="col-md-6">
+						<label for="inputName5" class="form-label">CourseName:</label>
+						<input type="text" id="courseName" name="courseName" class="form-control" required />
+					</div>
+
+					<div class="col-md-6">
+						<label for="inputName5" class="form-label">CourseLogo:</label>
+						<input type="text" id="courseLogo" name="courseLogo" class="form-control" required />
+					</div>
+
+					<div class="col-md-6">
+						<label for="inputName5" class="form-label">CourseTitle:</label>
+						<input type="text" id="courseTitle" name="courseTitle" class="form-control" required />
+					</div>
+
+					<div class="col-md-6">
+						<label for="inputName5" class="form-label">CourseDescription:</label>
+						<input type="text" id="courseDescription" name="courseDescription" class="form-control" required />
+					</div>
+
+					<div>
+						<input type="submit" value="Submit" class="btn btn-primary" />
+					</div>
+
+				</form>
+			</div>
+		</div>
+
+</body>
+</html>
